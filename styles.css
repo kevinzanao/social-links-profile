@@ -1,0 +1,50 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey1: hsl(0, 0%, 20%);
+    --Grey2: hsl(0, 0%, 12%);
+    --Grey3: hsl(0, 0%, 8%);
+}
+
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: Inter;
+    background-color: var(--Grey3);
+}
+
+main {
+    text-align: center;
+    background-color: var(--Grey2);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.user-information img{
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.user-information h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--White);
+    margin-bottom: .3em;
+}
+
+.user-information h1 + p {
+    font-size: .9em;
+    font-weight: 600;
+    color: var(--Green);
+    margin-bottom: 1em;
+}
+
+
+
